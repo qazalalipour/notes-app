@@ -16,7 +16,7 @@
                 x-transition:leave="transition ease-in duration-300"
                 x-transition:leave-start="opacity-100 transform translate-y-0 scale-100"
                 x-transition:leave-end="opacity-0 transform translate-y-10 scale-95"
-                class="bg-white w-[80%] p-6 rounded-2xl shadow-lg relative">
+                class="bg-white w-[80%] p-6 rounded-2xl shadow-lg relative overflow-y-scroll md:overflow-y-auto md:m-0 m-10 max-h-[90%] md:max-h-[95%]">
 
                 <div class="mb-5">
                     <h1 class="text-lg font-bold mb-4">ویرایش نوشته</h1>
